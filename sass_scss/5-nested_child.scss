@@ -1,0 +1,11 @@
+/* Nested child */
+
+// Task: 5. Nested child
+body {
+  color: #3D3D3D;
+
+  > .red {
+    color: #FF0000;
+  }
+}
+

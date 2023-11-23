@@ -1,0 +1,16 @@
+/* Margin mixin */
+
+// Task: 8. Margin mixin
+@mixin margin-both($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include margin-both(10px);
+}
+
+div {
+  @include margin-both(15px);
+}
+
